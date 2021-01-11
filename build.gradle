@@ -23,6 +23,7 @@ dependencies {
     compileOnly 'org.projectlombok:lombok'
     compile group: 'com.amazonaws', name: 'aws-java-sdk', version: '1.11.933'
     compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.1'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: '2.4.1'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
